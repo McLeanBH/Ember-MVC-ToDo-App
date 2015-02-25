@@ -1,3 +1,5 @@
+When attempting to use fixtures as the tut suggests, cli docs say to run '~ember g http-mock posts' which I did. Thus, server dir is inluded, available for testing. Nevertheless, still added static fixtures for the time being, as it's simple enough for a tutorial and want to be familiar.   
+
 # Ember-mvc-to-do-app
 
 Follow the tutorial on making a todo app in Ember.js, except when it is
