@@ -23,3 +23,9 @@ Todo.reopenClass({
     {id: 3, title: 'Profit', isCompleted: false}
   ]
 });
+
+// this following line of code is used bc I am using fixtures & the adapter
+export default Todo;
+
+// without fixtures, 'export' would be:
+// export default DS.Model.extend({});

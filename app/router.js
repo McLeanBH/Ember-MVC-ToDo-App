@@ -9,7 +9,7 @@ Router.map(function() {
   this.route('todos', { path: '/' });
 });
 
-export default Router;
+export default Ember.Route.extend({});
 
 
 

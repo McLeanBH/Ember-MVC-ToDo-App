@@ -14,3 +14,5 @@ var App = Ember.Application.extend({
 loadInitializers(App, config.modulePrefix);
 
 export default App;
+
+// If I understand correctly, this is the proper cli export default for app.js 

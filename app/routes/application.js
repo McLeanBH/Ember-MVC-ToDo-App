@@ -1,16 +1,16 @@
 // window.Todos = Ember.Application.create(); // --> per tutorial
 // Todos.ApplicationAdapter = DS.FixtureAdapter.extend(); // --> per tut
 
-// export default DS.RESTAdapter.extend({});
-
-// export default Ember.Route.extend({
+import Ember from "ember";
 
 
-export default DS.RESTAdapter.extend({
+
+// export default DS.RESTAdapter.extend({
+export default Ember.Route.extend({
     model: function(){
       return this.store.find('todo');
     },
-    setupController: function(controller, model){
+    setupController: function(controller){
       // controller is the instance of ApplicationController
       controller.set('todo', 'Learn Ember.js');
     }
@@ -19,6 +19,9 @@ export default DS.RESTAdapter.extend({
 // export default Ember.ObjectController.extend({
 //   appName: 'ToDoMVC'
 // });
+
+// export default DS.RESTAdapter.extend({});
+// export default Ember.Route.extend({
 
 
   // Ember.js will render the application template as the main template. If App.ApplicationController is provided,
