@@ -1,6 +1,6 @@
 // per ember-cli docs, using ember data (DS) in your modules, you must import them..
 
-import DS from "ember-data";
+import DS from 'ember-data';
 
 // Todos.Todo = DS.Model.extend({
 //   title: DS.attr('string'),
@@ -24,8 +24,4 @@ Todo.reopenClass({
   ]
 });
 
-// this following line of code is used bc I am using fixtures & the adapter
 export default Todo;
-
-// without fixtures, 'export' would be:
-// export default DS.Model.extend({});

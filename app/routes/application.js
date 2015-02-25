@@ -1,11 +1,10 @@
 // window.Todos = Ember.Application.create(); // --> per tutorial
 // Todos.ApplicationAdapter = DS.FixtureAdapter.extend(); // --> per tut
 
-import Ember from "ember";
+import Ember from 'ember';
 
 
 
-// export default DS.RESTAdapter.extend({
 export default Ember.Route.extend({
     model: function(){
       return this.store.find('todo');

@@ -9,9 +9,9 @@ Router.map(function() {
   this.route('todos', { path: '/' });
 });
 
-export default Ember.Route.extend({});
+export default Router;
 
-
+// implementing a Todos-Route class with a model function that returns all the existing todos
 
 
 // OR
