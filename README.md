@@ -1,7 +1,20 @@
 # Ember-mvc-to-do-app
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Follow the tutorial on making a todo app in Ember.js, except when it is
+necessary to deviate in order to follow the conventions of an ember-cli
+application. You will likely need to familiarize yourself with ember-cli using
+the documentation.
+
+Once completed, you should:
+- Be familiar with the vocabulary of an Ember.js application
+- Understand the file structure and naming conventions of an ember-cli application.
+- Understand how to use the Ember.js and ember-cli documentation.
+- ** Be able to start an Ember.js application from scratch using ember-cli.**
+
+ADDITIONAL RESOURCES:
+-- http://emberjs.com/guides/getting-started/
+-- http://www.ember-cli.com/
+
 
 ## Prerequisites
 
@@ -50,4 +63,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
