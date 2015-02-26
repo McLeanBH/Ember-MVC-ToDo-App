@@ -14,3 +14,6 @@ export default Ember.Route.extend({
     }
   }
 });
+
+
+// this name "todos.js" comes from the Route. 
