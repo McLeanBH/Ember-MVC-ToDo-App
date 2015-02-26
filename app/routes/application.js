@@ -11,7 +11,7 @@ export default Ember.Route.extend({
     },
     setupController: function(controller){
       // controller is the instance of ApplicationController
-      controller.set('todo', 'Learn Ember.js');
+      controller.set('todo-controller');
     }
 });
 

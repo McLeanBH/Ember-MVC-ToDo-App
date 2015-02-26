@@ -2,15 +2,6 @@
 
 import DS from 'ember-data';
 
-// Todos.Todo = DS.Model.extend({
-//   title: DS.attr('string'),
-//   isCompleted: DS.attr('boolean')
-// }); //from tut
-
-// export default DS.Model.extend({});
-
-
-
 var Todo = DS.Model.extend({
   title: DS.attr('string'),
   isCompleted: ('blooean')
@@ -25,3 +16,9 @@ Todo.reopenClass({
 });
 
 export default Todo;
+
+// Todos.Todo = DS.Model.extend({
+//   title: DS.attr('string'),
+//   isCompleted: DS.attr('boolean')
+// }); //from tut
+// export default DS.Model.extend({});

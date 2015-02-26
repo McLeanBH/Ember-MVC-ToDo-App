@@ -15,4 +15,5 @@ loadInitializers(App, config.modulePrefix);
 
 export default App;
 
-// If I understand correctly, this is the proper cli export default for app.js 
+// If I understand correctly, this is the proper cli export default for app.js
+// Jake verified that it is correct.
