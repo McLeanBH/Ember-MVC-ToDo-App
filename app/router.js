@@ -7,8 +7,8 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('todos', { path: '/'}, function() { // --> this line alone determines all naming conventions (i.e. router is names 'todos.js')
-    this.route('active');
-    this.route('completed');
+  this.route('active');
+  this.route('completed');
   });
 });
 

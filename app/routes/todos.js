@@ -10,10 +10,10 @@ export default Ember.Route.extend({
       case 'all'       : return this.store.find('todo');
       case 'active'    : return this.store.filter('todo', (todo) => !todo.get('isCompleted'));
       case 'completed' : return this.store.filter('todo', (todo) =>  todo.get('isCompleted'));
-      // default          : throw new Error(`Unknown Todo State: '${params.state}'`);
+      default          : throw new Error(`Unknown Todo State: '${params.state}'`);
     }
   }
 });
 
 
-// this name "todos.js" comes from the Route. 
+// this name "todos.js" comes from the Route.
